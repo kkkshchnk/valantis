@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список товаров</title>
+</head>
+<body>
+    <form id="filter-form">
+        <label for="name-filter">Название:</label>
+        <input type="text" id="name-filter" name="name-filter"><br>
+        <label for="price-filter">Цена:</label>
+        <input type="number" id="price-filter" name="price-filter"><br>
+        <label for="brand-filter">Бренд:</label>
+        <input type="text" id="brand-filter" name="brand-filter"><br>
+        <button type="submit">Применить фильтры</button>
+        <button id="reset-filters">Сбросить фильтры</button>
+
+    </form>
+    
+
+<div id="product-list"></div>
+<div id="pagination"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="module" src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стили для блока с фильтрами */
+#filter-form {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#filter-form input[type="text"],
+#filter-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#filter-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#filter-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для таблицы товаров */
+#product-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#product-list th,
+#product-list td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#product-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+#product-list td {
+    background-color: #fff;
+    color: #555;
+}
+
+/* Стили для кнопок пагинации */
+.pagination-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination-btn:hover {
+    background-color: #0056b3;
+}
+
+.pagination-btn:disabled {
+    background-color: #ced4da;
+    cursor: not-allowed;
+}
+
+/* Стили для кнопки "..." */
+.ellipsis {
+    background-color: #f2f2f2;
+    color: #555;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: default;
+}
